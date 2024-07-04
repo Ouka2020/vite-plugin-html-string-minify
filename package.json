@@ -6,6 +6,10 @@
     "type": "git",
     "url": "git+https://github.com/Ouka2020/vite-plugin-html-string-minify.git"
   },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
   "type": "module",
   "version": "0.0.1",
   "devDependencies": {

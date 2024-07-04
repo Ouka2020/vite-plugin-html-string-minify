@@ -3,7 +3,7 @@ import { Plugin } from 'vite'
 
 const htmlStringMinify = (): Plugin => {
   return {
-    name: 'myPlugin',
+    name: 'vite-plugin-html-string-minify',
     enforce: 'pre',
     async load(id) {
       if (!id.endsWith('.html?minify')) return
