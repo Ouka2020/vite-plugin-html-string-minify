@@ -16,7 +16,7 @@
       "require": "./dist/index.cjs"
     },
     "./client": {
-      "types": "./dist/client.d.ts"
+      "types": "./client.d.ts"
     }
   },
   "files": [
@@ -24,7 +24,7 @@
   ],
   "license": "MIT",
   "type": "module",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "devDependencies": {
     "@types/minify": "^9.1.4",
     "typescript": "^5.5.3",

@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [
     dts(),
     viteStaticCopy({
-      targets: [{ src: 'src/client.d.ts', dest: '' }]
+      targets: [{ src: 'src/client.d.ts', dest: '../' }]
     })
   ],
   build: {
