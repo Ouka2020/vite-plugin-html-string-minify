@@ -1,0 +1,23 @@
+{
+  "name": "vite-plugin-html-string-minify",
+  "author": "Ouka2020",
+  "private": true,
+  "homepage": "https://github.com/Ouka2020/vite-plugin-html-string-minify",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ouka2020/vite-plugin-html-string-minify.git"
+  },
+  "type": "module",
+  "version": "0.0.1",
+  "devDependencies": {
+    "@types/minify": "^9.1.4",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3"
+  },
+  "dependencies": {
+    "minify": "^11.3.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
