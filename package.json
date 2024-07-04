@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/Ouka2020/vite-plugin-html-string-minify.git"
   },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -13,7 +16,7 @@
       "require": "./dist/index.cjs"
     },
     "./client": {
-      "types": "./client.d.ts"
+      "types": "./dist/client.d.ts"
     }
   },
   "files": [
@@ -21,7 +24,7 @@
   ],
   "license": "MIT",
   "type": "module",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "devDependencies": {
     "@types/minify": "^9.1.4",
     "typescript": "^5.5.3",
