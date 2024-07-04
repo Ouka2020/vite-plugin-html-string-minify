@@ -1,7 +1,6 @@
 {
   "name": "vite-plugin-html-string-minify",
   "author": "Ouka2020",
-  "private": true,
   "homepage": "https://github.com/Ouka2020/vite-plugin-html-string-minify",
   "repository": {
     "type": "git",
