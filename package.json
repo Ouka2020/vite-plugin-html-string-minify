@@ -11,7 +11,7 @@
   ],
   "license": "MIT",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "devDependencies": {
     "@types/minify": "^9.1.4",
     "typescript": "^5.5.3",
