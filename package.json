@@ -6,9 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/Ouka2020/vite-plugin-html-string-minify.git"
   },
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
