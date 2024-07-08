@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Ouka2020/vite-plugin-html-string-minify/compare/v1.0.0...v1.0.1) (2024-07-08)
+
+
+### Bug Fixes
+
+* 工作流更新 ([aa072ef](https://github.com/Ouka2020/vite-plugin-html-string-minify/commit/aa072ef828fbeed32462810ea2e815001bf99c7b))
+
 # 1.0.0 (2024-07-08)
 
 
