@@ -1,4 +1,4 @@
 node_modules/
 dist/
-pnpm-lock.yaml
 ./client.d.ts
+package-lock.json
