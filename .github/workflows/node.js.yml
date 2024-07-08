@@ -33,7 +33,7 @@ jobs:
       - name: release
         run: pnpm run semantic-release
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       # - name: production publish
       #   uses: actions/upload-artifact@v4
