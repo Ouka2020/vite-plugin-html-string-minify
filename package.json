@@ -4,7 +4,7 @@
   "homepage": "https://github.com/Ouka2020/vite-plugin-html-string-minify",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ouka2020/vite-plugin-html-string-minify.git"
+    "url": "https://github.com/Ouka2020/vite-plugin-html-string-minify.git"
   },
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -25,18 +25,23 @@
   ],
   "license": "MIT",
   "type": "module",
-  "version": "0.0.6",
+  "version": "0.0.0-development",
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "@types/minify": "^9.1.4",
+    "semantic-release": "^24.0.0",
+    "semantic-release-cli": "^5.4.6",
     "typescript": "^5.5.3",
     "vite": "^5.3.3",
     "vite-plugin-dts": "^3.9.1",
     "vite-plugin-static-copy": "^1.0.6"
   },
   "dependencies": {
-    "minify": "^11.3.0"
+    "minify": "^11.4.0"
   },
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "semantic-release": "semantic-release"
   }
 }

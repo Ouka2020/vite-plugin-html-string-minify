@@ -6,8 +6,6 @@ name: Node.js CI
 on:
   push:
     branches: ['main']
-  pull_request:
-    branches: ['main']
 
 jobs:
   build:
@@ -29,9 +27,11 @@ jobs:
       - run: npm ci
       - run: npm run build --if-present
       # - run: npm test
-      - run: npm publish
+      - name: release
+        run: npm semantic-release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       # - name: production publish
       #   uses: actions/upload-artifact@v4
       #   with:
