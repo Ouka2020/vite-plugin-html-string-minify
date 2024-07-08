@@ -23,7 +23,7 @@ jobs:
         with:
           version: 9
       - run: pnpm install
-      - run: pnpm run build --if-present
+      - run: pnpm run build
       # - run: npm test
       - name: release
         run: pnpm run semantic-release
