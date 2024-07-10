@@ -11,12 +11,6 @@ importers:
       minify:
         specifier: ^11.4.0
         version: 11.4.0
-      myosbs:
-        specifier: link:E:/workspaces/vscode/myosbs
-        version: link:../myosbs
-      vscode:
-        specifier: link:E:/workspaces/vscode
-        version: link:..
     devDependencies:
       '@semantic-release/changelog':
         specifier: ^6.0.3

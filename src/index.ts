@@ -10,11 +10,6 @@ const htmlStringMinify = (): Plugin => {
         const m = (await minify(id.split('?')[0])).replaceAll('"', '\\"')
         return `export default "${m}"`
       }
-
-      if (id.endsWith('.css?minify')) {
-        const m = await minify(id.split('?')[0]) //.replaceAll('"', '\\"')
-        return `export default "${m}"`
-      }
     }
   }
 }
