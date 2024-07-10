@@ -1,4 +1,4 @@
 node_modules/
 dist/
-./client.d.ts
-package-lock.json
+/client.d.ts
+/package-lock.json
