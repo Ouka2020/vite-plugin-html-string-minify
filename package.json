@@ -25,7 +25,7 @@
   ],
   "license": "MIT",
   "type": "module",
-  "version": "1.1.1-dev",
+  "version": "1.0.1",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@types/minify": "^9.1.4",
@@ -36,7 +36,9 @@
     "vite-plugin-static-copy": "^1.0.6"
   },
   "dependencies": {
-    "minify": "^11.4.0"
+    "minify": "^11.4.0",
+    "myosbs": "link:E:/workspaces/vscode/myosbs",
+    "vscode": "link:E:/workspaces/vscode"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

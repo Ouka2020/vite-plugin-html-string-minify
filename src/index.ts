@@ -6,10 +6,15 @@ const htmlStringMinify = (): Plugin => {
     name: 'vite-plugin-html-string-minify',
     enforce: 'pre',
     async load(id) {
-      if (!id.endsWith('.html?minify')) return
+      if (id.endsWith('.html?minify')) {
+        const m = (await minify(id.split('?')[0])).replaceAll('"', '\\"')
+        return `export default "${m}"`
+      }
 
-      const m = (await minify(id.split('?')[0])).replaceAll('"', '\\"')
-      return `export default "${m}"`
+      if (id.endsWith('.css?minify')) {
+        const m = await minify(id.split('?')[0]) //.replaceAll('"', '\\"')
+        return `export default "${m}"`
+      }
     }
   }
 }
