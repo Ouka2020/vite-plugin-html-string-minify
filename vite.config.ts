@@ -16,5 +16,8 @@ export default defineConfig({
       formats: ['es', 'cjs']
     },
     rollupOptions: { external: ['vite', 'minify'] }
+  },
+  esbuild: {
+    drop: ['console', 'debugger']
   }
 })

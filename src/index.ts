@@ -2,6 +2,7 @@ import { minify } from 'minify'
 import { Plugin } from 'vite'
 
 const htmlStringMinify = (): Plugin => {
+  console.debug('test drop.')
   return {
     name: 'vite-plugin-html-string-minify',
     enforce: 'pre',
